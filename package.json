@@ -1,0 +1,30 @@
+{
+  "name": "mcp-minecraft-remote",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "type": "module",
+  "bin": {
+    "minecraft-remote": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "start": "node build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "mineflayer": "^4.19.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "zod": "^3.22.4"
+  }
+}
