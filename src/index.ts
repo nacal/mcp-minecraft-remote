@@ -1,6 +1,6 @@
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'
-import { server } from './server'
-import { registerAllTools } from './tools'
+import { server } from './server.js'
+import { registerAllTools } from './tools/index.js'
 
 // Register all tools
 registerAllTools()

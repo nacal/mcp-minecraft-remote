@@ -1,13 +1,13 @@
 import { Vec3 } from 'vec3'
 import { z } from 'zod'
-import { botState, server } from '../server'
-import { Container } from '../types'
+import { botState, server } from '../server.js'
+import { Container } from '../types.js'
 
 import {
   createErrorResponse,
   createNotConnectedResponse,
   createSuccessResponse,
-} from '../utils/error-handler'
+} from '../utils/error-handler.js'
 
 // Function to register container interaction tools
 export function registerContainerInteractionTools() {

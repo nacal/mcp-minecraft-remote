@@ -1,11 +1,11 @@
 import { Vec3 } from 'vec3'
 import { z } from 'zod'
-import { botState, server } from '../server'
+import { botState, server } from '../server.js'
 import {
   createErrorResponse,
   createNotConnectedResponse,
   createSuccessResponse,
-} from '../utils/error-handler'
+} from '../utils/error-handler.js'
 
 // Define control state type explicitly to match what mineflayer expects
 type ControlState =

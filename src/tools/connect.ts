@@ -6,14 +6,14 @@ import {
   server,
   updateConnectionInfo,
   updateConnectionState,
-} from '../server'
-import { ToolResponse } from '../types'
+} from '../server.js'
+import { ToolResponse } from '../types.js'
 import {
   createAlreadyConnectedResponse,
   createErrorResponse,
   createNotConnectedResponse,
   createSuccessResponse,
-} from '../utils/error-handler'
+} from '../utils/error-handler.js'
 
 // Login/connection tool
 export function registerConnectTools() {

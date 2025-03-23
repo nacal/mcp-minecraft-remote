@@ -1,11 +1,11 @@
 import { z } from 'zod'
-import { botState, server } from '../server'
-import { ToolResponse } from '../types'
+import { botState, server } from '../server.js'
+import { ToolResponse } from '../types.js'
 import {
   createErrorResponse,
   createNotConnectedResponse,
   createSuccessResponse,
-} from '../utils/error-handler'
+} from '../utils/error-handler.js'
 
 // Function to register entity interaction tools
 export function registerEntityInteractionTools() {

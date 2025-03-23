@@ -1,6 +1,6 @@
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
 import * as mineflayer from 'mineflayer'
-import { BotState, ConnectionInfo } from './types'
+import { BotState, ConnectionInfo } from './types.js'
 
 // Object to maintain bot state (global state)
 export const botState: BotState = {

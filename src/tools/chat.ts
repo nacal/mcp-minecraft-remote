@@ -1,10 +1,10 @@
 import { z } from 'zod'
-import { botState, server } from '../server'
+import { botState, server } from '../server.js'
 import {
   createErrorResponse,
   createNotConnectedResponse,
   createSuccessResponse,
-} from '../utils/error-handler'
+} from '../utils/error-handler.js'
 
 // Function to register chat-related tools
 export function registerChatTools() {

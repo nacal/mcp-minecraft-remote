@@ -1,4 +1,4 @@
-import { ToolResponse } from '../types'
+import { ToolResponse } from '../types.js'
 
 /**
  * Utility to generate tool response from error message
@@ -8,7 +8,9 @@ export function createErrorResponse(error: unknown): ToolResponse {
     content: [
       {
         type: 'text',
-        text: `Error: ${error instanceof Error ? error.message : String(error)}`,
+        text: `Error: ${
+          error instanceof Error ? error.message : String(error)
+        }`,
       },
     ],
   }

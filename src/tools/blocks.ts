@@ -1,7 +1,7 @@
 import { Vec3 } from 'vec3'
 import { z } from 'zod'
-import { botState, server } from '../server'
-import { ToolResponse } from '../types'
+import { botState, server } from '../server.js'
+import { ToolResponse } from '../types.js'
 import {
   createErrorResponse,
   createNotConnectedResponse,
