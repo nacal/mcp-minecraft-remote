@@ -1,20 +1,42 @@
 {
   "name": "mcp-minecraft-remote",
-  "version": "0.0.1",
-  "main": "src/index.ts",
+  "version": "0.1.0",
+  "description": "Minecraft Remote Control using MCP (Model Context Protocol)",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "type": "module",
   "bin": {
     "minecraft-remote": "./build/index.js"
   },
   "scripts": {
     "build": "tsc && chmod 755 build/index.js",
-    "start": "node build/index.js"
+    "start": "node build/index.js",
+    "prepublishOnly": "npm run build"
   },
+  "keywords": [
+    "minecraft",
+    "mcp",
+    "remote-control",
+    "claude",
+    "model-context-protocol",
+    "ai-assistant"
+  ],
+  "author": "nacal",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nacal/mcp-minecraft-remote.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nacal/mcp-minecraft-remote/issues"
+  },
+  "homepage": "https://github.com/nacal/mcp-minecraft-remote",
   "files": [
-    "build"
+    "build",
+    "README.md",
+    "LICENSE"
   ],
   "devDependencies": {
-    "@types/bun": "latest",
     "@types/node": "^22.13.10",
     "typescript": "^5.8.2"
   },
