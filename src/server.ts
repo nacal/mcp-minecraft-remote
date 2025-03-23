@@ -12,6 +12,7 @@ export const botState: BotState = {
     username: '',
     version: '',
   },
+  currentContainer: null,
 }
 
 // Create server instance
