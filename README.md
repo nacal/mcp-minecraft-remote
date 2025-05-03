@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/nacal-mcp-minecraft-remote-badge.png)](https://mseep.ai/app/nacal-mcp-minecraft-remote)
+
 # MCP Minecraft Remote
 
 > This project is inspired by [mcp-minecraft](https://github.com/arjunkmrm/mcp-minecraft) by arjunkmrm. While the original only supported local Minecraft server connections, this project was newly created from scratch to add support for connecting to remote Minecraft servers.
