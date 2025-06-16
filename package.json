@@ -37,7 +37,7 @@
     "LICENSE"
   ],
   "devDependencies": {
-    "@types/node": "^22.13.10",
+    "@types/node": "^24.0.1",
     "typescript": "^5.8.2"
   },
   "peerDependencies": {
